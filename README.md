@@ -1,6 +1,6 @@
 # MSI-B460M-i5-10400-Hackintosh
 
-My personal MSI B460M i5-10400 OpenCore hackintosh.
+My personal OpenCore hackintosh for MSI B460M i5-10400 UHD 630.
 
 ## Configuration
 
@@ -23,6 +23,15 @@ My personal MSI B460M i5-10400 OpenCore hackintosh.
 
 Windows first then hackintosh.
 
+Coming soon...
+
+## References
+
+- [https://dortania.github.io/OpenCore-Install-Guide/](https://dortania.github.io/OpenCore-Install-Guide/)
+- [https://apple.sqlsec.com/](https://apple.sqlsec.com/)
+- [https://shuiyunxc.github.io/2020/04/23/xiaobai/index/](https://shuiyunxc.github.io/2020/04/23/xiaobai/index/) [以及对应的视频](https://space.bilibili.com/405490165?spm_id_from=333.788.b_765f7570696e666f.2)
+- [https://heipg.cn](https://heipg.cn)
+
 ## Credit
 
-GitHub.
+- [https://github.com/myqqiu/Hackintosh-B460M-MORTAR-i5-10500-iGPU-UHD630](https://github.com/myqqiu/Hackintosh-B460M-MORTAR-i5-10500-iGPU-UHD630)
