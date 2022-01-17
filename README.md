@@ -1,6 +1,6 @@
 # MSI-B460M-i5-10400-Hackintosh
 
-My personal MSI B460M i5-10400 OpenCore hackintosh.
+My personal MSI B460M i5-10400 hackintosh OpenCore.
 
 ## Configuration
 
@@ -22,6 +22,8 @@ My personal MSI B460M i5-10400 OpenCore hackintosh.
 ## Hacking
 
 Windows first then hackintosh.
+
+Comming soon...
 
 ## Credit
 
