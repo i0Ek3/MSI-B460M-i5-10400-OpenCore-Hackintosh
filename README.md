@@ -2,10 +2,6 @@
 
 My personal OpenCore hackintosh for MSI B460M i5-10400 UHD 630.
 
-## You Should Know
-
-For some wierd reasons, I cannot test this EFI on my machine, so if you want to use it, please be careful. But I can tell you, this EFI work on stage one and work for all technically. 
-
 ## OC Config
 
 - OC version: 0.7.8
@@ -13,6 +9,12 @@ For some wierd reasons, I cannot test this EFI on my machine, so if you want to 
 - For now, all kexts are updated
 - Only useful stuffs
 - Test by yourself
+
+## SSDT
+
+## Kexts
+
+
 
 ## Hardwares
 
