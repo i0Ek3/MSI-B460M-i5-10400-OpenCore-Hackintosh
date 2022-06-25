@@ -2,6 +2,14 @@
 
 My personal OpenCore hackintosh for MSI B460M i5-10400 UHD 630.
 
+## Update Log
+
+- OC version: 0.8.2
+- Latest update: 2022-06-25
+- Kexts and tools based on [HackinPlugins](https://github.com/bugprogrammer/HackinPlugins)@2022-06-25
+- Support macOS Monterey 12.4
+
+
 ## Hardware
 
 | #           | Type                    | Price        | Buy Where |
@@ -18,16 +26,11 @@ My personal OpenCore hackintosh for MSI B460M i5-10400 UHD 630.
 | Memory      | 光威 悍将 2666 16*2     | 自有         | JD        |
 | Display     | AOC 4K + KOIOS 4K       | 3012 + 980   | JD        |
 
-## Update Log
-
-- OC version: 0.8.2
-- Latest update: 2022-06-25
-- Kexts and tools based on [HackinPlugins](https://github.com/bugprogrammer/HackinPlugins)@2022-06-25
-- Support macOS Monterey 12.4
 
 ## Issues
 
 Test by yourself or you tell me.
+
 
 ## Config
 
@@ -58,12 +61,14 @@ EFI/OC » tree . -L 2
 └── config.plist
 ```
 
+
 ## Notes
 
 - Change your own SMBIOS and determine the validity of it
 - Enable NVIDIA GTX series(Kepler) graphic card support, you can check [here](https://heipg.cn/drivers/geforce-kepler-patcher-v3.html) and [here](https://github.com/chris1111/Geforce-Kepler-patcher)
 - If you use the other network card and bluetooth model, you may need to load BlueToolFixup.kext
 - In this version, USB ports need to be re-customized by yourself, you can check [here](https://apple.sqlsec.com/6-实用姿势/6-1.html) to re-customized it
+
 
 ## References
 
