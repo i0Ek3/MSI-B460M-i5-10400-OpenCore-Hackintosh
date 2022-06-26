@@ -12,19 +12,20 @@ My personal OpenCore hackintosh for MSI B460M i5-10400 UHD 630.
 
 ## Hardware
 
-| #           | Type                    | Price        | Buy Where |
-| ----------- | ----------------------- | ------------ | --------- |
-| CPU         | i5-10400                | 套装         | JD        |
-| Graphic     | UHD630 + HP GT630（2G） | 198          | XY        |
-| Motherboard | MSI B460M               | 套装 1762.51 | JD        |
-| Power       | 酷冷至尊 GX450          | 234.99       | JD        |
-| Case        | 雷匠 静默者             | 51           | JD        |
-| Cooling     | 九州风神 玄冰400        | 64           | JD        |
-| Fan         | 先马 游戏风暴*2         | 11.79        | JD        |
-| SSD         | 阿斯加特 AN2 500G       | 328.5        | JD        |
-| HHD         | 500G                    | 拆机         |           |
-| Memory      | 光威 悍将 2666 16*2     | 自有         | JD        |
-| Display     | AOC 4K + KOIOS 4K       | 3012 + 980   | JD        |
+| #           | Type                      | Price        | Buy Where |
+| ----------- | ------------------------- | ------------ | --------- |
+| CPU         | i5-10400(UHD630)          | Suit 1762.51 | JD        |
+| Graphic     | HP GT630（2G）            | 198          | XY        |
+| Motherboard | MSI B460M                 | Suit 1762.51 | JD        |
+| Power       | 酷冷至尊 GX450            | 234.99       | JD        |
+| Case        | 雷匠 静默者               | 51           | JD        |
+| Cooling     | 九州风神 玄冰400          | 64           | JD        |
+| Fan         | 先马 游戏风暴*2           | 11.79        | JD        |
+| SSD         | 阿斯加特 AN2 500G         | 328.5        | JD        |
+| HHD         | 500G                      | N/A          | N/A       |
+| Memory      | 光威 悍将 2666 16*2       | 299          | JD        |
+| Display1    | AOC U27U2G6R4B 27-inch 4K | 3012         | JD        |
+| Display2    | KOIOS K2721UD 27-inch 4K  | 980          | JD        |
 
 
 ## Issues
@@ -65,8 +66,8 @@ EFI/OC » tree . -L 2
 ## Notes
 
 - Change your own SMBIOS and determine the validity of it
-- Enable NVIDIA GTX series(Kepler) graphic card support, you can check [here](https://heipg.cn/drivers/geforce-kepler-patcher-v3.html) and [here](https://github.com/chris1111/Geforce-Kepler-patcher)
-- If you use the other network card and bluetooth model, you may need to load BlueToolFixup.kext
+- To enable NVIDIA GTX series(Kepler) graphic card support, you can check [here](https://heipg.cn/drivers/geforce-kepler-patcher-v3.html) and [here](https://github.com/chris1111/Geforce-Kepler-patcher)
+- If you use the different network card and bluetooth model with mine, you may need to load BlueToolFixup.kext
 - In this version, USB ports need to be re-customized by yourself, you can check [here](https://apple.sqlsec.com/6-实用姿势/6-1.html) to re-customized it
 
 
