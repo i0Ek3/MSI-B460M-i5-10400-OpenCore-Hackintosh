@@ -2,10 +2,12 @@
 
 My personal OpenCore hackintosh for MSI B460M i5-10400 UHD 630.
 
+> THIS IS A BETA VERSION, PLEASE BE KNOWN.
+
 ## Update Log
 
 - OC version: 0.8.2
-- Latest update: 2022-06-25
+- Latest update: 2022-06-26
 - Kexts and tools based on [HackinPlugins](https://github.com/bugprogrammer/HackinPlugins)@2022-06-25
 - Support macOS Monterey 12.4
 
@@ -23,7 +25,7 @@ My personal OpenCore hackintosh for MSI B460M i5-10400 UHD 630.
 | Fan         | 先马 游戏风暴*2           | 11.79        | JD        |
 | SSD         | 阿斯加特 AN2 500G         | 328.5        | JD        |
 | HHD         | 500G                      | N/A          | N/A       |
-| Memory      | 光威 悍将 2666 16*2       | 299          | JD        |
+| Memory      | 光威 悍将 2666 16*2       | 299*2        | JD        |
 | Display1    | AOC U27U2G6R4B 27-inch 4K | 3012         | JD        |
 | Display2    | KOIOS K2721UD 27-inch 4K  | 980          | JD        |
 
@@ -40,6 +42,7 @@ EFI/OC » tree . -L 2
 .
 ├── ACPI
 │   ├── SSDT-AWAC.aml
+│   ├── SSDT-GPRW.aml
 │   ├── SSDT-PLUG.aml
 │   └── SSDT-USBX.aml
 ├── Drivers
@@ -58,7 +61,11 @@ EFI/OC » tree . -L 2
 │   └── WhateverGreen.kext
 ├── OpenCore.efi
 ├── Tools
-│   └── OpenShell.efi
+│   ├── CleanNvram.efi
+│   ├── CsrUtil.efi
+│   ├── OpenControl.efi
+│   ├── OpenShell.efi
+│   └── ResetSystem.efi
 └── config.plist
 ```
 
@@ -67,8 +74,11 @@ EFI/OC » tree . -L 2
 
 - Change your own SMBIOS and determine the validity of it
 - To enable NVIDIA GTX series(Kepler) graphic card support, you can check [here](https://heipg.cn/drivers/geforce-kepler-patcher-v3.html) and [here](https://github.com/chris1111/Geforce-Kepler-patcher)
-- If you use the different network card and bluetooth model with mine, you may need to load BlueToolFixup.kext
+- If you use the different network card and bluetooth model with mine, you may need to load BlueToolFixup.kext, reference [here](https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html#bluetooth)
 - In this version, USB ports need to be re-customized by yourself, you can check [here](https://apple.sqlsec.com/6-实用姿势/6-1.html) to re-customized it
+- In my config.plist, SIP is enabled by default, you can disable SIP in Recovery system by running command `csrutil disable ; csrutil disable authenticated-root`
+- If you want to make your own OpenCore config.plist, please follows the steps [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html)
+- There may lots of issues, please be careful if you want to use my EFI config
 
 
 ## References
