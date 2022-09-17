@@ -63,7 +63,7 @@ Only some core options are turned on or off here, others can be set according to
 - More details of boot args please check [here](https://github.com/acidanthera/WhateverGreen#boot-arguments) and [here](https://www.mfpud.com/topics/8785/).
 - To enable NVIDIA GTX series(Kepler) graphic card support, you can check [here](https://heipg.cn/drivers/geforce-kepler-patcher-v3.html) and [here](https://github.com/chris1111/Geforce-Kepler-patcher).
 - If you use the different network card and bluetooth model with mine, you may need to load BlueToolFixup.kext, reference [here.](https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html#bluetooth)
-- In this version, USB ports need to be re-customized by yourself, you can check [here](https://apple.sqlsec.com/6-实用姿势/6-1.html) to know how to re-customized it. Of course, if you have same case with mine(JONSOBO U3), you can use it directly.
+- In this version, USB ports need to be re-customized by yourself, you can check [here](https://apple.sqlsec.com/6-实用姿势/6-1.html) to know how to re-customized it. Of course, if you have same case with mine(JONSBO U3), you can use it directly.
 - In my config.plist, SIP is enabled by default, you can disable SIP in Recovery system by running command `csrutil disable ; csrutil disable authenticated-root` or enable SIP toggle button on the boot interface.
 - Remember clean NVRAM cache before you use my EFI config.
 - If you want to make your own OpenCore config.plist, please follows the steps [here.](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html)
