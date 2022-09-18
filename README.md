@@ -1,15 +1,15 @@
 # MSI-B460M-i5-10400-OpenCore-Hackintosh
 
-> Work in progress, you own risk!
+> It will take a while to enter the installation interface, please be patient.
 
 My personal OpenCore hackintosh for MSI B460M i5-10400 UHD 630, very streamlined.
 
 ## Update Log
 
 - OC version: 0.8.5
-- Latest update: 2022-09-17
+- Latest update: 2022-09-18
 - Kexts and tools based on [HackinPlugins](https://github.com/bugprogrammer/HackinPlugins)@2022-09-16
-- Support macOS Monterey/Ventura(theoretically)
+- Support macOS Monterey/Ventura(Beta7)
 - Details
     - Regular version upgrade
     - Enable HDMI output
